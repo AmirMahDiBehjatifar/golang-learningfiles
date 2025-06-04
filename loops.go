@@ -19,4 +19,17 @@ func main() {
 		i++
 	}
 
+	for i := 0; i < 5; i++ {
+		fmt.Println(i)
+	}
+
+	b := 0
+	for b < 5 {
+		b++
+	}
+
+	for _, item := range fruitsArray {
+		fmt.Println(item)
+	}
+
 }
